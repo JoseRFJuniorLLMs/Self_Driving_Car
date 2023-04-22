@@ -39,7 +39,8 @@ while True:
 
     # Salva o número e cor selecionados em um arquivo txt
     with open("numeros_sorteados.txt", "a") as f:
-        f.write(numero_sorteado + "," + cor_sorteada + "\n")
+        # f.write(numero_sorteado + "," + cor_sorteada + "\n")
+        f.write(numero_sorteado+"\n")
 
     # Espera 5 segundos antes de sortear outro número
-    time.sleep(5)
+    # time.sleep(5)
